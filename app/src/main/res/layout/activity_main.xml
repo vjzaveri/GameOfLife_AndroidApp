@@ -11,9 +11,10 @@
     android:orientation="vertical"
     tools:context="com.example.vanshzaveri.gameoflife.MainActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="30dp" />
+        android:layout_height="120dp"
+        android:src="@drawable/image"/>
 
     <com.example.vanshzaveri.gameoflife.GameGrid
         android:id="@+id/grid_view"
